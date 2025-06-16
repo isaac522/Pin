@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fefefe;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.pin {
+  width: 200px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border: 3px solid green;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.title {
+  background-color: #fce4c1;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 8px 0;
+  border-bottom: 2px solid #222;
+}
+
+.details {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  padding: 10px;
+  list-style: disc inside;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
